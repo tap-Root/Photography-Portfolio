@@ -1,0 +1,11 @@
+header span {
+  font-family: "Press Start 2P", sans-serif !important;
+  padding-top: 2px;
+}
+header .mat-icon {
+  padding: 0px;
+  margin: 4px;
+}
+header .spacer {
+  flex: 1 1 auto;
+}/*# sourceMappingURL=app.component.css.map */

@@ -1,0 +1,25 @@
+main {
+    background-image: url(../../assets/images/1.jpg);
+    background-size: cover;
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    transition: all 0.3s ease-in-out;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 5rem;
+    }
+}
