@@ -1,14 +1,16 @@
 
-<header>
+<!-- <header>
 <mat-toolbar color="secondary">
-  <span>NOBLEROVER</span>
+  <span id="brand">NOBLEROVER</span>
   <span class="spacer"></span>
-  <mat-icon>info</mat-icon>
-  <mat-icon>alternate_email</mat-icon>
+  <span *ngIf="!isMobile" id="navlinks">INFO</span>
+  <span *ngIf="!isMobile" id="navlinks">CONTACT</span>
+  <mat-icon *ngIf="isMobile">info</mat-icon>
+  <mat-icon *ngIf="isMobile">alternate_email</mat-icon>
 </mat-toolbar>
-</header>
+</header> -->
 
 <!--Carousel-->
-<app-carousel></app-carousel>
+<app-carousel-wrapper></app-carousel-wrapper>
 
 <router-outlet></router-outlet>

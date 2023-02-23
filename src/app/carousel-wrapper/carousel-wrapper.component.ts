@@ -2,12 +2,11 @@ import { Component } from '@angular/core';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-carousel-wrapper',
+  templateUrl: './carousel-wrapper.component.html',
+  styleUrls: ['./carousel-wrapper.component.scss']
 })
-export class AppComponent {
-  title = 'Noble Rover Photography';
+export class CarouselWrapperComponent {
   isMobile: boolean = false;
 
   constructor(private breakpointObserver: BreakpointObserver) {
