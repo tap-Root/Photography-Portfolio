@@ -7,7 +7,7 @@
     }
 }
 main {
-    background-image: url(../../assets/images/doorway.jpg);
+    background-image: url(../../assets/images/4-2.jpg);
     background-size: cover;
     background-position:center;
     width: 90dvw;
@@ -25,12 +25,15 @@ main {
         justify-content: center;
         align-items: center;
         text-align: center;
+        //background-color: rgba(255, 255, 255, 0.23);
+        border-radius: 15px;
     }
 
     a {
         text-decoration: none;
-        color: white;
-        font-size: 3rem;
+        color: rgb(255, 255, 255);
+        font-size: 200%;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
 }
 
@@ -58,18 +61,15 @@ header {
     transition: all 1s ease;
     span {
         font-family: 'Press Start 2P', sans-serif !important;
-        display: flex;
-        justify-content: space-between;
-        padding-right: 15px;
     }
     .mat-icon {
-        // padding-right: 15px;
-        // margin: 4px;
+        padding-right: 0px;
+        margin: 0px;
     }
     .spacer {
         flex: 1 1 auto;
     }
-    #brand{
+    .brand{
         font-size: 1.75rem;
         padding-left: 15px;
         animation: slideIn 1s;

@@ -31,6 +31,7 @@ main {
         text-decoration: none;
         color: white;
         font-size: 3rem;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
 }
 
@@ -62,10 +63,7 @@ header {
         justify-content: space-between;
         padding-right: 15px;
     }
-    .mat-icon {
-        // padding-right: 15px;
-        // margin: 4px;
-    }
+    
     .spacer {
         flex: 1 1 auto;
     }
@@ -76,5 +74,10 @@ header {
     }
     #navlinks {
         animation: fadeIn 2s;
+        transition: width 2s ease-in-out 0s;
+        
+    }
+    #navlinks:hover {
+        rotate: 1deg;
     }
 }

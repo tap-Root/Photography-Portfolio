@@ -24,7 +24,7 @@ export class CarouselMobileComponent {
 
   resetBackground() {
     var background = document.getElementById("background");
-    background!.style.backgroundImage = "url(../../assets/images/doorway.jpg)";
+    background!.style.backgroundImage = "url(../../assets/images/4-2.jpg)";
   }
 
 }
