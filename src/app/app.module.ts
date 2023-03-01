@@ -9,13 +9,15 @@ import { MatIconModule } from '@angular/material/icon';
 import { CarouselComponent } from './carousel/carousel.component';
 import { CarouselMobileComponent } from './carousel-mobile/carousel-mobile.component';
 import { CarouselWrapperComponent } from './carousel-wrapper/carousel-wrapper.component';
+import { StreetGalleryComponent } from './street-gallery/street-gallery.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CarouselComponent,
     CarouselMobileComponent,
-    CarouselWrapperComponent
+    CarouselWrapperComponent,
+    StreetGalleryComponent
   ],
   imports: [
     BrowserModule,
