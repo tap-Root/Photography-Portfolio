@@ -11,7 +11,7 @@ main {
     background-size: cover;
     background-position:center;
     width: 90dvw;
-    height: 90dvh;
+    height: 85dvh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,47 +34,5 @@ main {
         color: rgb(255, 255, 255);
         font-size: 200%;
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    }
-}
-
-@keyframes slideIn {
-    from {
-        opacity: 0;
-        transform: translateX(-100%);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0%);
-    }
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-header {
-    transition: all 1s ease;
-    span {
-        font-family: 'Press Start 2P', sans-serif !important;
-    }
-    .mat-icon {
-        padding-right: 0px;
-        margin: 0px;
-    }
-    .spacer {
-        flex: 1 1 auto;
-    }
-    .brand{
-        font-size: 1.75rem;
-        padding-left: 15px;
-        animation: slideIn 1s;
-    }
-    #navlinks {
-        animation: fadeIn 2s;
     }
 }

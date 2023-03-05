@@ -10,6 +10,8 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { CarouselMobileComponent } from './carousel-mobile/carousel-mobile.component';
 import { CarouselWrapperComponent } from './carousel-wrapper/carousel-wrapper.component';
 import { StreetGalleryComponent } from './street-gallery/street-gallery.component';
+import { LandscapeGalleryComponent } from './landscape-gallery/landscape-gallery.component';
+import { HumansGalleryComponent } from './humans-gallery/humans-gallery.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { StreetGalleryComponent } from './street-gallery/street-gallery.componen
     CarouselComponent,
     CarouselMobileComponent,
     CarouselWrapperComponent,
-    StreetGalleryComponent
+    StreetGalleryComponent,
+    LandscapeGalleryComponent,
+    HumansGalleryComponent
   ],
   imports: [
     BrowserModule,

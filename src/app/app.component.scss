@@ -1,44 +1,51 @@
-// @keyframes slideIn {
-//     from {
-//         opacity: 0;
-//         transform: translateX(-100%);
-//     }
-//     to {
-//         opacity: 1;
-//         transform: translateX(0%);
-//     }
-// }
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
 
-// @keyframes fadeIn {
-//     from {
-//         opacity: 0;
-//     }
-//     to {
-//         opacity: 1;
-//     }
-// }
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
-// header {
-//     transition: all 1s ease;
-//     span {
-//         font-family: 'Press Start 2P', sans-serif !important;
-//         display: flex;
-//         justify-content: space-between;
-//         padding-right: 15px;
-//     }
-//     .mat-icon {
-//         // padding-right: 15px;
-//         // margin: 4px;
-//     }
-//     .spacer {
-//         flex: 1 1 auto;
-//     }
-//     #brand{
-//         font-size: 1.75rem;
-//         padding-left: 15px;
-//         animation: slideIn 1s;
-//     }
-//     #navlinks {
-//         animation: fadeIn 2s;
-//     }
-// }
+header {
+    transition: all 1s ease;
+    a {
+        font-family: 'Press Start 2P', sans-serif !important;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 15px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .spacer {
+        flex: 1 1 auto;
+    }
+    #brand{
+        font-size: 1.75rem;
+        padding-left: 15px;
+        animation: slideIn 1s;
+    }
+    #brand:hover {
+        color: darken($color: #ffffff, $amount: 40%)
+    }
+    #navlinks {
+        animation: fadeIn 2s;
+        transition: width 2s ease-in-out 0s;
+        
+    }
+    #navlinks:hover {
+        color: darken($color: #ffffff, $amount: 40%)
+    }
+}

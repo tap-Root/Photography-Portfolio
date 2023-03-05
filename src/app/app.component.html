@@ -1,16 +1,16 @@
 
-<!-- <header>
+<header>
 <mat-toolbar color="secondary">
-  <span id="brand">NOBLEROVER</span>
-  <span class="spacer"></span>
-  <span *ngIf="!isMobile" id="navlinks">INFO</span>
-  <span *ngIf="!isMobile" id="navlinks">CONTACT</span>
+  <a routerLink="" routerLinkActive="active" ariaCurrentWhenActive="page" id="brand">NOBLEROVER</a>
+  <a class="spacer"></a>
+  <a *ngIf="!isMobile" id="navlinks">INFO</a>
+  <a *ngIf="!isMobile" id="navlinks">CONTACT</a>
   <mat-icon *ngIf="isMobile">info</mat-icon>
   <mat-icon *ngIf="isMobile">alternate_email</mat-icon>
 </mat-toolbar>
-</header> -->
+</header>
 
 <!--Carousel-->
-<app-carousel-wrapper></app-carousel-wrapper>
+<!-- <app-carousel-wrapper></app-carousel-wrapper> -->
 
 <router-outlet></router-outlet>

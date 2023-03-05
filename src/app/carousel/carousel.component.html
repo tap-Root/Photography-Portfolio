@@ -1,17 +1,17 @@
-<header>
+<!-- <header>
     <mat-toolbar color="secondary">
       <span id="brand">NOBLEROVER</span>
       <span class="spacer"></span>
       <span id="navlinks">INFO</span>
       <span id="navlinks">CONTACT</span>
     </mat-toolbar>
-    </header>
+    </header> -->
 
 <main class="container-fluid" id="background">
     <div class="row">
         <a routerLink="/street-gallery" routerLinkActive="active" ariaCurrentWhenActive="page" class="street" (mouseenter)="streetPreview()" (mouseleave)="resetBackground()">STREET</a>
-        <a href="#" class="landscape" (mouseenter)="landscapePreview()" (mouseleave)="resetBackground()">LANDSCAPE</a>
-        <a href="#" class="humans" (mouseenter)="humansPreview()" (mouseleave)="resetBackground()">HUMANS</a>
+        <a routerLink="/landscape-gallery" routerLinkActive="active" ariaCurrentWhenActive="page" class="landscape" (mouseenter)="landscapePreview()" (mouseleave)="resetBackground()">LANDSCAPE</a>
+        <a routerLink="/humans-gallery" routerLinkActive="active" ariaCurrentWhenActive="page" class="humans" (mouseenter)="humansPreview()" (mouseleave)="resetBackground()">HUMANS</a>
         
     </div>
 </main>
